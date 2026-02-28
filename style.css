@@ -1,0 +1,103 @@
+/* CSS BY Sean Won */
+
+/* IMPORTED FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --main-font: "Google Sans", sans-serif;
+
+    --bg-white: #ffffff;
+    --text-dark: #333333;
+    --accent-teal: #008080;
+    --accent-pink: #ff69b4;
+    --accent-lavender: #e6e6fa;
+    --accent-yellow: #ffd700;
+    
+    --max-width: 450px;
+}
+/* GLOBAL STYLES (mobile first/small) */
+body{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 20px;
+    font-family: var(--main-font);
+    color: var(--text-dark);
+    line-height: 1.5;
+}
+
+header > h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header > p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+nav ul li a{
+    color: #008080;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section > h2{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+article > h3 {
+    color: #666;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin: 1rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem;
+}
+
+th,td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#contact .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #000;
+    text-decoration: underline;
+    color: #0000ee;
+}
+
+footer > p {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
